@@ -1,0 +1,81 @@
+{
+  "slug": "emojid",
+  "name": "Emoji'd",
+  "tagline": "Type :shortcodes: in chat and see full-colour emoji.",
+  "icon": "/assets/emojid.png",
+  "side": "Client",
+  "categories": [
+    "Utility",
+    "Social"
+  ],
+  "license": "MIT",
+  "links": {},
+  "description": [
+    "Emoji'd is a client-side mod that turns Discord-style `:shortcodes:` in chat into full-colour emoji. Type `:sob:` and see 😭. It works on any server, because only your own display is rewritten and the message sent is unchanged. Emoji sent by other players as raw unicode are rendered too.",
+    {
+      "heading": "Features"
+    },
+    {
+      "list": [
+        "1,870 emoji with 1,900+ Discord-style shortcodes, drawn in full colour with Twemoji",
+        "Fast typers can skip the underscores: `:faceholdingbacktears:` works like `:face_holding_back_tears:`",
+        "Works on any server and needs no server-side install",
+        "Chat history keeps the original text, so copying and logs still show `:sob:`",
+        "Includes a custom `:gerald:` emoji"
+      ]
+    },
+    "Requires Fabric Loader and Java 21 (Minecraft 1.21.11) or Java 25 (Minecraft 26.x)."
+  ],
+  "gallery": [],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-13",
+      "channel": "release",
+      "changelog": [
+        "First release",
+        "Supports Minecraft 1.21.11, 26.1.x, 26.2 and 26.3"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "emojid-1.0.0-fabric-1.21.11.jar",
+          "release": "emojid-v1.0.0",
+          "size": 3029655
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2"
+          ],
+          "name": "emojid-1.0.0-fabric-26.1.2.jar",
+          "release": "emojid-v1.0.0",
+          "size": 3030267
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "emojid-1.0.0-fabric-26.2.jar",
+          "release": "emojid-v1.0.0",
+          "size": 3030262
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "emojid-1.0.0-fabric-26.3.jar",
+          "release": "emojid-v1.0.0",
+          "size": 3030264
+        }
+      ]
+    }
+  ]
+}
