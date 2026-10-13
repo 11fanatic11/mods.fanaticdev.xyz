@@ -1,0 +1,452 @@
+{
+  "slug": "mediacontrol",
+  "name": "MediaControl",
+  "tagline": "A now-playing panel for Minecraft: album cover, title, progress bar and play/pause/skip for whatever you are listening to.",
+  "icon": "/assets/logo-512.png",
+  "side": "Client",
+  "categories": [
+    "Utility",
+    "Client"
+  ],
+  "license": "MIT",
+  "links": {},
+  "description": [
+    "MediaControl adds a **now-playing panel** to the Minecraft pause menu and main menu. It shows the album cover, title and artist, elapsed and total time, a scrubbable progress bar, and play/pause, previous and next buttons for whatever you are listening to on your computer. Spotify, browsers, VLC and most other players work.",
+    {
+      "heading": "Features"
+    },
+    {
+      "list": [
+        "Works with your system-wide media: Windows media controls (SMTC) or Linux MPRIS",
+        "Panel on the pause menu and in the bottom-left of the main menu",
+        "A toast slides up when the track changes, then shows \"Press [Esc] to control\"",
+        "Scrub the progress bar to seek, plus play/pause and skip buttons",
+        "Accent color changeable by hex code in Mod Menu (default #0080FF)",
+        "Client-side only: nothing is needed on servers"
+      ]
+    },
+    {
+      "heading": "Linux"
+    },
+    "Windows needs nothing extra. On Linux you need **`playerctl`** and a media player that supports MPRIS (Spotify, VLC, Firefox, Chrome and most others do).",
+    {
+      "list": [
+        "Ubuntu / Debian / Mint: `sudo apt install playerctl`",
+        "Fedora: `sudo dnf install playerctl`",
+        "Arch / Manjaro: `sudo pacman -S playerctl`",
+        "openSUSE: `sudo zypper install playerctl`",
+        "Check it works while music plays: `playerctl --list-all` should list your player",
+        "Flatpak launchers (Prism, Modrinth App): also run `flatpak override --user --talk-name=org.freedesktop.Flatpak <launcher app id>`, for example `org.prismlauncher.PrismLauncher` or `com.modrinth.ModrinthApp`, then restart the launcher"
+      ]
+    },
+    {
+      "heading": "Good to know"
+    },
+    {
+      "list": [
+        "The mod starts one small helper process to read and control your media player. It only reads what is playing and sends playback commands; the only network request is downloading the current album cover from the address your player provides.",
+        "Supported systems are Windows and Linux. On other systems the panel shows \"Incompatible Operating System\".",
+        "Each download covers a range of Minecraft versions; pick your loader and version and the site gives you the right file."
+      ]
+    }
+  ],
+  "gallery": [],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-13",
+      "channel": "release",
+      "changelog": [
+        "First release",
+        "Now-playing panel on the pause menu and main menu",
+        "Song-change toast, scrubbable progress bar, play/pause and skip",
+        "Windows and Linux (MPRIS via playerctl) support"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.19",
+            "1.19.1",
+            "1.19.2"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.19-1.19.2.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 47686
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.19.3",
+            "1.19.4"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.19.3-1.19.4.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 47754
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4",
+            "1.20.5",
+            "1.20.6"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.20-1.20.6.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45767
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21",
+            "1.21.1"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.21-1.21.1.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45779
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.21.11.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45907
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.2",
+            "1.21.3",
+            "1.21.4"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.21.2-1.21.4.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45878
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.5"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.21.5.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45950
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.6",
+            "1.21.7",
+            "1.21.8"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.21.6-1.21.8.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45844
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.9",
+            "1.21.10"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-1.21.9-1.21.10.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45913
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2",
+            "26.2"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-26.1-26.2.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45073
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "mediacontrol-1.0.0-fabric-26.3.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45080
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.19",
+            "1.19.1",
+            "1.19.2"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.19-1.19.2.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 48146
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.19.3",
+            "1.19.4"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.19.3-1.19.4.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 48228
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.20-1.20.4.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 46334
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.20.6"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.20.6.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45249
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21.1"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.1.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45269
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.11.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45419
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21.3",
+            "1.21.4"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.3-1.21.4.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45387
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21.5"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.5.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45461
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21.6",
+            "1.21.7"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.6-1.21.7.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45179
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21.8"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.8.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45382
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21.9",
+            "1.21.10"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.9-1.21.10.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45466
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "1.21"
+          ],
+          "name": "mediacontrol-1.0.0-forge-1.21.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45091
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2",
+            "26.2"
+          ],
+          "name": "mediacontrol-1.0.0-forge-26.1-26.2.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 44752
+        },
+        {
+          "loader": "forge",
+          "mc": [
+            "26.3"
+          ],
+          "name": "mediacontrol-1.0.0-forge-26.3.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 44750
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.20.1"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.20.1.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 46328
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.20.2",
+            "1.20.3"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.20.2-1.20.3.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 46526
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.20.4"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.20.4.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45851
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.20.5"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.20.5.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45147
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.20.6"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.20.6.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45084
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.21",
+            "1.21.1"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.21-1.21.1.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45098
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.21.11.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45158
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.21.2",
+            "1.21.3",
+            "1.21.4"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.21.2-1.21.4.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45209
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.21.5"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.21.5.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45289
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.21.6",
+            "1.21.7",
+            "1.21.8"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.21.6-1.21.8.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45097
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "1.21.9",
+            "1.21.10"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-1.21.9-1.21.10.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 45168
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2",
+            "26.2"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-26.1-26.2.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 44511
+        },
+        {
+          "loader": "neoforge",
+          "mc": [
+            "26.3"
+          ],
+          "name": "mediacontrol-1.0.0-neoforge-26.3.jar",
+          "release": "mediacontrol-v1.0.0",
+          "size": 44517
+        }
+      ]
+    }
+  ]
+}
