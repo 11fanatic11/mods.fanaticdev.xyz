@@ -1,0 +1,112 @@
+{
+  "slug": "fire-alarm-system",
+  "name": "Fire Alarm System",
+  "tagline": "A realistic addressable fire alarm system: control panel, smoke and heat detectors, horns, strobes, sprinklers, and fire-ready woodland mansions.",
+  "icon": "/assets/fire-alarm-system.png",
+  "side": "Both",
+  "categories": [
+    "Utility",
+    "Redstone",
+    "Decoration",
+    "Adventure"
+  ],
+  "license": "MIT",
+  "links": {},
+  "description": [
+    "A realistic, addressable **fire alarm system** for Minecraft. Build a control panel, tie detectors, pull stations, horns, strobes and sprinklers to it, and watch it behave like the real thing: smoke follows the air, doors matter, alarms latch until reset, and sprinkler heads pop one at a time.",
+    {
+      "heading": "What's in it"
+    },
+    {
+      "list": [
+        "**Fire Alarm Control Panel** with LEDs, LCD, ACK / SILENCE / RESET / DRILL / WALK TEST keys, an active-event list, a device list (change zones, disable, remove) and an 80-entry event history, plus a **Remote Annunciator**.",
+        "**Initiating devices:** manual pull stations, photoelectric smoke detectors, heat detectors, sprinkler waterflow and valve-tamper switches, and a standalone interconnected **smoke alarm** with test/hush and a battery that chirps when low.",
+        "**Notification appliances:** horn, strobe, horn/strobe, speaker/strobe and bell, all synchronised, with selectable tones (Temporal-3, March, Hi-Lo, Slow Whoop, Chime). SILENCE stops the sound but the strobes keep flashing.",
+        "**Outputs:** control relay modules (redstone on alarm, trouble or supervisory), magnetic door releases that close nearby doors, emergency lights and EXIT signs.",
+        "**Sprinklers:** heads with fusible bulbs, pipe, a riser with valve and flow switch, and a fire department connection. Heads need real pipe to a water supply and put out fires within range.",
+        "**Extinguishers:** a hold-to-spray fire extinguisher and a wall cabinet.",
+        "Synthesised sounds for every device, procedural textures and custom 3D models."
+      ]
+    },
+    {
+      "heading": "How to use it"
+    },
+    {
+      "list": [
+        "Place a **Fire Alarm Control Panel** on a wall and right-click it with the **Panel Programming Tool** to select it.",
+        "Right-click each device with the tool to learn it into the panel (up to 96 devices). Sneak and use the tool to remove one.",
+        "Right-click the panel with an empty hand to open its screen."
+      ]
+    },
+    "Alarms latch at the panel until RESET, and re-trip straight away if the cause is still there. A missing device raises a trouble signal, a closed riser valve raises a supervisory signal, and a new alarm re-sounds silenced signals.",
+    {
+      "heading": "Woodland mansions"
+    },
+    "Every woodland mansion comes with a complete, working system: a panel by the front door, exit sign, exterior bell, smoke and heat detectors on every floor, horn/strobes, emergency lights, door releases, pull stations and extinguisher cabinets, all linked to the panel. The mansion's illagers (vindicators, evokers, pillagers and illusioners) know the system: when one sees a fire it runs to the nearest pull station and pulls it.",
+    {
+      "heading": "Commands and config"
+    },
+    {
+      "list": [
+        "`/firealarm tp <panel> [address]` teleports you to a panel or one of its devices, and `/firealarm list <panel>` lists them.",
+        "`/firealarm <panel> ack|silence|reset|drill|walktest|status` presses the panel keys remotely (operators).",
+        "`config/firealarm.properties` controls detector ranges, the smoke alarm battery, campfire nuisance alarms, mansion systems and raider behaviour."
+      ]
+    },
+    "Requires Minecraft 26.1.2, Fabric Loader 0.19.3 or newer, Java 25 and Fabric API. Singleplayer and servers."
+  ],
+  "gallery": [
+    {
+      "src": "/assets/fire-alarm-system-1.jpg",
+      "caption": "A control panel with its annunciator, pull station, notification appliances and relay. The panel face shows the system state."
+    },
+    {
+      "src": "/assets/fire-alarm-system-2.jpg",
+      "caption": "The control panel screen: LEDs, LCD, function keys and the active event list."
+    },
+    {
+      "src": "/assets/fire-alarm-system-3.jpg",
+      "caption": "The device list: change a device's zone, disable it, or remove it."
+    },
+    {
+      "src": "/assets/fire-alarm-system-4.jpg",
+      "caption": "A sprinkler riser with valve and flow switch, pipe, and sprinkler heads."
+    },
+    {
+      "src": "/assets/fire-alarm-system-5.jpg",
+      "caption": "A woodland mansion. Every one is generated with a working, linked fire alarm system."
+    },
+    {
+      "src": "/assets/fire-alarm-system-6.jpg",
+      "caption": "The mansion's front doorway: exterior bell on the facade, exit sign above, panel and pull station inside."
+    },
+    {
+      "src": "/assets/fire-alarm-system-7.jpg",
+      "caption": "A mansion pull station. The illagers run to these when they see a fire."
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-13",
+      "channel": "release",
+      "changelog": [
+        "First release: control panel, annunciator, pull stations, smoke and heat detectors, smoke alarm, horns, strobes, bells, speakers, relays, door releases, emergency lights and exit signs.",
+        "Sprinkler system with heads, pipe, riser and fire department connection, plus fire extinguishers and cabinets.",
+        "Every woodland mansion now has a working fire alarm system, and its illagers pull the alarm when they see a fire.",
+        "Operator commands: /firealarm tp, list and the panel key commands."
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "fire-alarm-system-1.0.0-fabric-26.1.2.jar",
+          "release": "fire-alarm-system-v1.0.0",
+          "size": 643273
+        }
+      ]
+    }
+  ]
+}
