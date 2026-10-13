@@ -2,7 +2,7 @@
   "slug": "mediacontrol",
   "name": "MediaControl",
   "tagline": "A now-playing panel for Minecraft: album cover, title, progress bar and play/pause/skip for whatever you are listening to.",
-  "icon": "/assets/logo-512.png",
+  "icon": "/assets/mediacontrol.png",
   "side": "Client",
   "categories": [
     "Utility",
