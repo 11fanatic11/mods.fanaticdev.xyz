@@ -1,0 +1,108 @@
+{
+  "slug": "mcnostalgia",
+  "name": "Minecraft: Nostalgia Edition",
+  "tagline": "A nostalgic overhaul of the menus: a boot video, an Xbox 360 exit screen, C418 music and custom menu sounds.",
+  "icon": "/assets/mcnostalgia.png",
+  "side": "Client",
+  "categories": [
+    "Cosmetic",
+    "Audio"
+  ],
+  "license": "All Rights Reserved",
+  "links": {},
+  "description": [
+    "**Minecraft: Nostalgia Edition** gives the Java Edition menus a nostalgic makeover. It plays a video when the game starts, shows an Xbox 360 style exit screen over your real main menu, replaces the music with C418 tracks, and adds custom sounds and button textures to every menu.",
+    {
+      "heading": "Features"
+    },
+    {
+      "list": [
+        "**Boot video.** A full-screen video plays at launch, and the menu music starts right away. The window title also reads \"Minecraft: Xbox 360 Edition\" for a few seconds, then glitches back to normal.",
+        "**Xbox 360 exit screen.** Pressing Quit Game on the main menu plays the Xbox Guide and exit dialog over your own title screen, then closes the game. The menu music stops while it plays.",
+        "**C418 music.** All the in-game music is replaced with C418 songs, and the main menu has its own playlist.",
+        "**Menu sounds.** Custom sounds for hovering and clicking buttons, going back, releasing sliders, and being disconnected from a server. They also play on the world and server lists.",
+        "**Xbox 360 buttons.** Gray buttons that turn blue with yellow text when highlighted.",
+        "**Settings screen.** With Mod Menu installed, choose where the menu sounds play (main menu only, everywhere, or in-game only) and switch the boot video and exit video on or off."
+      ]
+    },
+    {
+      "heading": "Resource pack"
+    },
+    "The music and the button textures are in a built-in resource pack called **Nostalgia Edition**. It is switched on by default. Because it is a normal pack, you can switch it off or move another pack above it in the Resource Packs screen.",
+    {
+      "heading": "Requirements"
+    },
+    {
+      "list": [
+        "Fabric Loader 0.18.0 or newer",
+        "[Fabric API](https://modrinth.com/mod/fabric-api) for your Minecraft version",
+        "[Mod Menu](https://modrinth.com/mod/modmenu) is optional, but it is the only way to open the settings screen"
+      ]
+    },
+    "Downloads are available for Minecraft 1.21.11, 26.1.2, 26.2 and 26.3. Each jar is about 80 MB because it contains the videos and music."
+  ],
+  "gallery": [
+    {
+      "src": "/assets/mcnostalgia-menu.png",
+      "caption": "The main menu with the Xbox 360 style buttons"
+    },
+    {
+      "src": "/assets/mcnostalgia-exit-guide.png",
+      "caption": "The exit screen: the Xbox Guide opens over your main menu"
+    },
+    {
+      "src": "/assets/mcnostalgia-exit-dialog.png",
+      "caption": "The exit confirmation, before the game closes"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-13",
+      "channel": "release",
+      "changelog": [
+        "First release for Minecraft 1.21.11, 26.1.2, 26.2 and 26.3",
+        "Boot video, Xbox 360 exit screen, C418 music, menu sounds and Xbox style buttons",
+        "Settings screen through Mod Menu"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "mcnostalgia-1.0.0-fabric-1.21.11.jar",
+          "release": "mcnostalgia-v1.0.0",
+          "size": 83475460
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "mcnostalgia-1.0.0-fabric-26.1.2.jar",
+          "release": "mcnostalgia-v1.0.0",
+          "size": 83476004
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "mcnostalgia-1.0.0-fabric-26.2.jar",
+          "release": "mcnostalgia-v1.0.0",
+          "size": 83476168
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "mcnostalgia-1.0.0-fabric-26.3.jar",
+          "release": "mcnostalgia-v1.0.0",
+          "size": 83476184
+        }
+      ]
+    }
+  ]
+}
