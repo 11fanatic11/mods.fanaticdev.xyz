@@ -53,7 +53,7 @@
         "`config/firealarm.properties` controls detector ranges, the smoke alarm battery, campfire nuisance alarms, mansion systems and raider behaviour."
       ]
     },
-    "Requires Minecraft 26.1.2, Fabric Loader 0.19.3 or newer, Java 25 and Fabric API. Singleplayer and servers."
+    "Requires Minecraft 26.1.2, Fabric Loader 0.19.0 or newer, Java 25 and Fabric API. Singleplayer and servers."
   ],
   "gallery": [
     {
@@ -86,6 +86,25 @@
     }
   ],
   "versions": [
+    {
+      "version": "1.0.1",
+      "date": "2026-10-14",
+      "channel": "release",
+      "changelog": [
+        "Fixed: the mod no longer requires Fabric Loader 0.19.3, so it loads on Fabric Loader 0.19.0 and newer (e.g. 0.19.2)."
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "fire-alarm-system-1.0.1-fabric-26.1.2.jar",
+          "release": "fire-alarm-system-v1.0.1",
+          "size": 643290
+        }
+      ]
+    },
     {
       "version": "1.0.0",
       "date": "2026-10-13",
