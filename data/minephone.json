@@ -31,7 +31,7 @@
         "**Do Not Disturb** (no pop-ups or sounds, calls go to voicemail), **silent mode** (no ringtone or message sound), and a blocked numbers list where you can block and unblock people",
         "Edit your display name and picture at any time (the name can change once a day)",
         "Signal bars that follow your ping to the service, and \"No Service\" when it cannot be reached",
-        "Pick your own ringtone and message sound, or drop your own .mp3 or .wav files into the sounds folders; a 12 hour or 24 hour clock; the number on the home screen is hidden except for its first digit",
+        "Pick a ringtone from six built-in ones (or the message sound), or drop your own .mp3 or .wav files into the sounds folders; a 12 hour or 24 hour clock; the number on the home screen is hidden except for its first digit",
         "Keybinds to answer (Y) and hang up (N) without opening the phone, all rebindable",
         "The mod tells you in chat when a newer version is available, and nothing else is ever sent to your chat"
       ]
@@ -92,6 +92,75 @@
     }
   ],
   "versions": [
+    {
+      "version": "0.4.3",
+      "date": "2026-10-16",
+      "channel": "release",
+      "changelog": [
+        "New original default ringtone and message sound, plus five more built-in ringtones: Sunrise, Pixel, Crystal, Groove and Dusk",
+        "The game volume drops to 10% while you are on a call and comes back afterwards (turn it off in Settings)",
+        "Ringtones that end abruptly no longer click, and repeats always have the same short pause",
+        "Tap a photo to open it across the whole game window, sharp instead of pixelated",
+        "Emoji are now built into MinePhone, so the separate Emoji Chat mod is no longer needed for emoji in texts",
+        "Setup asks which microphone and speaker to use, with a button to copy them from Simple Voice Chat"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "minephone-0.4.3-fabric-1.21.11.jar",
+          "release": "minephone-v0.4.3",
+          "size": 4707348
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.1"
+          ],
+          "name": "minephone-0.4.3-fabric-26.1.1.jar",
+          "release": "minephone-v0.4.3",
+          "size": 4705658
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "minephone-0.4.3-fabric-26.1.2.jar",
+          "release": "minephone-v0.4.3",
+          "size": 4705658
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1"
+          ],
+          "name": "minephone-0.4.3-fabric-26.1.jar",
+          "release": "minephone-v0.4.3",
+          "size": 4705656
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "minephone-0.4.3-fabric-26.2.jar",
+          "release": "minephone-v0.4.3",
+          "size": 4705786
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "minephone-0.4.3-fabric-26.3.jar",
+          "release": "minephone-v0.4.3",
+          "size": 4705769
+        }
+      ]
+    },
     {
       "version": "0.4.2",
       "date": "2026-10-16",
