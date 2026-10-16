@@ -94,6 +94,73 @@
   ],
   "versions": [
     {
+      "version": "0.4.2",
+      "date": "2026-10-16",
+      "channel": "release",
+      "changelog": [
+        "Tap a photo to open it across the whole game window, sharp instead of pixelated",
+        "Emoji are now built into MinePhone, so the separate Emoji Chat mod is no longer needed for emoji in texts",
+        "The mod icon now shows in launchers such as Modrinth and CurseForge",
+        "Setup asks which microphone and speaker to use, with a button to copy them from Simple Voice Chat"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "minephone-0.4.2-fabric-1.21.11.jar",
+          "release": "minephone-v0.4.2",
+          "size": 3852019
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.1"
+          ],
+          "name": "minephone-0.4.2-fabric-26.1.1.jar",
+          "release": "minephone-v0.4.2",
+          "size": 3850330
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "minephone-0.4.2-fabric-26.1.2.jar",
+          "release": "minephone-v0.4.2",
+          "size": 3850330
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1"
+          ],
+          "name": "minephone-0.4.2-fabric-26.1.jar",
+          "release": "minephone-v0.4.2",
+          "size": 3850328
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "minephone-0.4.2-fabric-26.2.jar",
+          "release": "minephone-v0.4.2",
+          "size": 3850459
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "minephone-0.4.2-fabric-26.3.jar",
+          "release": "minephone-v0.4.2",
+          "size": 3850439
+        }
+      ]
+    },
+    {
       "version": "0.4.1",
       "date": "2026-10-16",
       "channel": "release",
