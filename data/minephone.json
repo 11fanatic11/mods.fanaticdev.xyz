@@ -94,6 +94,72 @@
   ],
   "versions": [
     {
+      "version": "0.4.1",
+      "date": "2026-10-16",
+      "channel": "release",
+      "changelog": [
+        "The mod icon now shows in launchers such as Modrinth and CurseForge",
+        "Setup asks which microphone and speaker to use",
+        "Copy the microphone and speaker from Simple Voice Chat, in setup or in Sounds and audio"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "minephone-0.4.1-fabric-1.21.11.jar",
+          "release": "minephone-v0.4.1",
+          "size": 829971
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.1"
+          ],
+          "name": "minephone-0.4.1-fabric-26.1.1.jar",
+          "release": "minephone-v0.4.1",
+          "size": 828241
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "minephone-0.4.1-fabric-26.1.2.jar",
+          "release": "minephone-v0.4.1",
+          "size": 828241
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1"
+          ],
+          "name": "minephone-0.4.1-fabric-26.1.jar",
+          "release": "minephone-v0.4.1",
+          "size": 828239
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "minephone-0.4.1-fabric-26.2.jar",
+          "release": "minephone-v0.4.1",
+          "size": 828370
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "minephone-0.4.1-fabric-26.3.jar",
+          "release": "minephone-v0.4.1",
+          "size": 828351
+        }
+      ]
+    },
+    {
       "version": "0.4.0",
       "date": "2026-10-16",
       "channel": "release",
