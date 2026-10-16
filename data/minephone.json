@@ -23,8 +23,8 @@
         "Real voice calls over the internet, with a keypad, mute, an in-call keypad, key tones when you dial, and a volume control that goes up to **300%** for when the game is loud",
         "Voicemail, with a PIN you choose during setup, a pop-up when you get a new one, and a list of recent calls with missed call badges. From the list you can text someone or save them as a contact in one tap",
         "Text messages with unread counts, retry for failed texts and a sound when a new one arrives. Texts and voicemails you missed while the game was closed are summed up in one pop-up when you join a world",
-        "**Emoji**: with the Emoji Chat mod installed, emoji show as full colour pictures in your chats and the phone has an emoji picker (recent emoji, search by name). Emoji go out as real emoji characters, so friends without the mod still get them",
-        "**Camera app**: take photos with the back camera or selfies (flip the camera, optional 3 second timer), browse your gallery, and send a photo from any chat",
+        "**Emoji**: built in, nothing else to install. Emoji show as full colour pictures in your chats and the phone has an emoji picker (recent emoji, search by name). Emoji go out as real emoji characters, so friends without the mod still get them",
+        "**Camera app**: take photos with the back camera or selfies (flip the camera, optional 3 second timer), browse your gallery, and send a photo from any chat. Tap any photo to open it big and sharp across the whole game window",
         "**Verified photos**: only an unchanged original from the camera can be sent. The photo is registered the moment it is taken, so a file that was swapped or edited afterwards is refused, and received photos are marked as verified camera photos",
         "**MinePhone badge**: a small phone icon in front of the name of every player who uses MinePhone, in the tab list and on name tags. You can turn your own badge off",
         "Contacts: save people under any name you like, and share your name and picture with a friend as a contact card. Until you save someone or they share their contact, they only show as a number, so a number never gives away who owns it",
@@ -44,8 +44,7 @@
         "A genuine, logged-in Minecraft account (the phone checks this with Mojang, so cracked clients cannot register)",
         "An internet connection: calls, voicemail, texts and photos go through the MinePhone service, so there is nothing to set up on servers",
         "A microphone and speakers or a headset for calls",
-        "**Fabric** and **Fabric API**. Each download covers one range of Minecraft versions, so pick your version and the site gives you the right file",
-        "Optional: the **Emoji Chat** mod, for emoji"
+        "**Fabric** and **Fabric API**. Each download covers one range of Minecraft versions, so pick your version and the site gives you the right file"
       ]
     },
     {
