@@ -110,7 +110,7 @@
           ],
           "name": "minephone-0.4.1-fabric-1.21.11.jar",
           "release": "minephone-v0.4.1",
-          "size": 829971
+          "size": 830024
         },
         {
           "loader": "fabric",
@@ -119,7 +119,7 @@
           ],
           "name": "minephone-0.4.1-fabric-26.1.1.jar",
           "release": "minephone-v0.4.1",
-          "size": 828241
+          "size": 828288
         },
         {
           "loader": "fabric",
@@ -128,7 +128,7 @@
           ],
           "name": "minephone-0.4.1-fabric-26.1.2.jar",
           "release": "minephone-v0.4.1",
-          "size": 828241
+          "size": 828288
         },
         {
           "loader": "fabric",
@@ -137,7 +137,7 @@
           ],
           "name": "minephone-0.4.1-fabric-26.1.jar",
           "release": "minephone-v0.4.1",
-          "size": 828239
+          "size": 828286
         },
         {
           "loader": "fabric",
@@ -146,7 +146,7 @@
           ],
           "name": "minephone-0.4.1-fabric-26.2.jar",
           "release": "minephone-v0.4.1",
-          "size": 828370
+          "size": 828417
         },
         {
           "loader": "fabric",
@@ -155,7 +155,7 @@
           ],
           "name": "minephone-0.4.1-fabric-26.3.jar",
           "release": "minephone-v0.4.1",
-          "size": 828351
+          "size": 828398
         }
       ]
     },
