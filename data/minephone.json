@@ -93,10 +93,11 @@
   ],
   "versions": [
     {
-      "version": "0.4.3",
+      "version": "0.4.4",
       "date": "2026-10-16",
       "channel": "release",
       "changelog": [
+        "Switching ringtones in settings now stops the one that was playing, so sounds no longer overlap",
         "New original default ringtone and message sound, plus five more built-in ringtones: Sunrise, Pixel, Crystal, Groove and Dusk",
         "The game volume drops to 10% while you are on a call and comes back afterwards (turn it off in Settings)",
         "Ringtones that end abruptly no longer click, and repeats always have the same short pause",
@@ -110,54 +111,54 @@
           "mc": [
             "1.21.11"
           ],
-          "name": "minephone-0.4.3-fabric-1.21.11.jar",
-          "release": "minephone-v0.4.3",
-          "size": 4707348
+          "name": "minephone-0.4.4-fabric-1.21.11.jar",
+          "release": "minephone-v0.4.4",
+          "size": 4707585
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1.1"
           ],
-          "name": "minephone-0.4.3-fabric-26.1.1.jar",
-          "release": "minephone-v0.4.3",
-          "size": 4705658
+          "name": "minephone-0.4.4-fabric-26.1.1.jar",
+          "release": "minephone-v0.4.4",
+          "size": 4705898
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1.2"
           ],
-          "name": "minephone-0.4.3-fabric-26.1.2.jar",
-          "release": "minephone-v0.4.3",
-          "size": 4705658
+          "name": "minephone-0.4.4-fabric-26.1.2.jar",
+          "release": "minephone-v0.4.4",
+          "size": 4705898
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1"
           ],
-          "name": "minephone-0.4.3-fabric-26.1.jar",
-          "release": "minephone-v0.4.3",
-          "size": 4705656
+          "name": "minephone-0.4.4-fabric-26.1.jar",
+          "release": "minephone-v0.4.4",
+          "size": 4705896
         },
         {
           "loader": "fabric",
           "mc": [
             "26.2"
           ],
-          "name": "minephone-0.4.3-fabric-26.2.jar",
-          "release": "minephone-v0.4.3",
-          "size": 4705786
+          "name": "minephone-0.4.4-fabric-26.2.jar",
+          "release": "minephone-v0.4.4",
+          "size": 4706026
         },
         {
           "loader": "fabric",
           "mc": [
             "26.3"
           ],
-          "name": "minephone-0.4.3-fabric-26.3.jar",
-          "release": "minephone-v0.4.3",
-          "size": 4705769
+          "name": "minephone-0.4.4-fabric-26.3.jar",
+          "release": "minephone-v0.4.4",
+          "size": 4706010
         }
       ]
     }
