@@ -1,7 +1,7 @@
 {
   "slug": "minephone",
   "name": "MinePhone",
-  "tagline": "A working phone for Minecraft: your own number, real voice calls, voicemail and texts with other players.",
+  "tagline": "A working phone for Minecraft: your own number, real voice calls, texts with emoji, voicemail and a camera for photos and selfies.",
   "icon": "/assets/minephone.png",
   "side": "Client",
   "categories": [
@@ -12,7 +12,7 @@
   "license": "MIT",
   "links": {},
   "description": [
-    "MinePhone gives every player a **working phone**. You get your own permanent 9 digit phone number tied to your Minecraft account, so nobody can pretend to be you, and you can call, leave voicemail and text other MinePhone players, in single player and on any server.",
+    "MinePhone gives every player a **working phone**. You get your own permanent 9 digit phone number tied to your Minecraft account, so nobody can pretend to be you, and you can call, text, send photos and leave voicemail for other MinePhone players, in single player and on any server.",
     "Press **K** (you can change the key in Controls) and the phone slides up from the bottom right of the screen. Press it again and it slides away. When a text or a call comes in, the top of the phone pops up for a few seconds so you can see who it is.",
     {
       "heading": "Features"
@@ -20,16 +20,20 @@
     {
       "list": [
         "Your own phone number (9 digits with a check digit, so typos are caught), created in a short setup the first time you open the phone",
-        "Real voice calls over the internet, with a keypad, mute, in-call keypad and a list of recent calls with missed call badges",
-        "Voicemail, with a PIN you choose during setup",
-        "Text messages with unread counts, retry for failed texts and a sound when a new one arrives",
-        "Contacts: save people under any name you like, call or message them, and save someone straight from your recent calls",
-        "Contact cards: share your name and picture with a friend with one tap. Until you save someone or they share their contact, they only show as a number, so a number never gives away who owns it",
+        "Real voice calls over the internet, with a keypad, mute, an in-call keypad, key tones when you dial, and a volume control that goes up to **300%** for when the game is loud",
+        "Voicemail, with a PIN you choose during setup, a pop-up when you get a new one, and a list of recent calls with missed call badges. From the list you can text someone or save them as a contact in one tap",
+        "Text messages with unread counts, retry for failed texts and a sound when a new one arrives. Texts and voicemails you missed while the game was closed are summed up in one pop-up when you join a world",
+        "**Emoji**: with the Emoji Chat mod installed, emoji show as full colour pictures in your chats and the phone has an emoji picker (recent emoji, search by name). Emoji go out as real emoji characters, so friends without the mod still get them",
+        "**Camera app**: take photos with the back camera or selfies (flip the camera, optional 3 second timer), browse your gallery, and send a photo from any chat",
+        "**Verified photos**: only an unchanged original from the camera can be sent. The photo is registered the moment it is taken, so a file that was swapped or edited afterwards is refused, and received photos are marked as verified camera photos",
+        "**MinePhone badge**: a small phone icon in front of the name of every player who uses MinePhone, in the tab list and on name tags. You can turn your own badge off",
+        "Contacts: save people under any name you like, and share your name and picture with a friend as a contact card. Until you save someone or they share their contact, they only show as a number, so a number never gives away who owns it",
+        "**Do Not Disturb** (no pop-ups or sounds, calls go to voicemail), **silent mode** (no ringtone or message sound), and a blocked numbers list where you can block and unblock people",
         "Edit your display name and picture at any time (the name can change once a day)",
         "Signal bars that follow your ping to the service, and \"No Service\" when it cannot be reached",
-        "Pick your own ringtone and message sound, or drop your own .mp3 or .wav files into the sounds folders",
-        "Keypad tones when you dial, a 12 hour or 24 hour clock, and the number on the home screen is hidden except for its first digit",
-        "Keybinds to answer (Y) and hang up (N) without opening the phone, all rebindable"
+        "Pick your own ringtone and message sound, or drop your own .mp3 or .wav files into the sounds folders; a 12 hour or 24 hour clock; the number on the home screen is hidden except for its first digit",
+        "Keybinds to answer (Y) and hang up (N) without opening the phone, all rebindable",
+        "The mod tells you in chat when a newer version is available, and nothing else is ever sent to your chat"
       ]
     },
     {
@@ -38,9 +42,10 @@
     {
       "list": [
         "A genuine, logged-in Minecraft account (the phone checks this with Mojang, so cracked clients cannot register)",
-        "An internet connection: calls, voicemail and texts go through the MinePhone service, so there is nothing to set up on servers",
+        "An internet connection: calls, voicemail, texts and photos go through the MinePhone service, so there is nothing to set up on servers",
         "A microphone and speakers or a headset for calls",
-        "**Fabric** and **Fabric API**. Each download covers one range of Minecraft versions, so pick your version and the site gives you the right file"
+        "**Fabric** and **Fabric API**. Each download covers one range of Minecraft versions, so pick your version and the site gives you the right file",
+        "Optional: the **Emoji Chat** mod, for emoji"
       ]
     },
     {
@@ -48,9 +53,10 @@
     },
     {
       "list": [
-        "Texting and signing in only work with other MinePhone users, and each number belongs to one Minecraft account for good",
+        "Texting, photos and signing in only work with other MinePhone users, and each number belongs to one Minecraft account for good",
+        "The camera hides the phone and the HUD for an instant to take the picture, and a selfie turns the game camera around for that moment",
         "Call audio is not encrypted yet (the connection setup is). Only call people you would talk to in public voice chat",
-        "Blocking is applied by the mod on your side. Blocked numbers cannot text you and their calls are declined",
+        "Blocking stops texts at the server and declines calls on your side. Blocked numbers cannot text you, and you can report a chat from its menu",
         "There is no echo cancellation, so a headset sounds much better than speakers",
         "Some launchers ship a trimmed Java without audio support. If calls are silent, use a launcher with a full Java 21 or 25 runtime"
       ]
@@ -63,22 +69,100 @@
     },
     {
       "src": "/assets/minephone-2.png",
-      "caption": "A chat. Sharing a contact card shows their name and picture, and you can save them under your own name"
+      "caption": "Emoji in a chat, with the emoji picker"
     },
     {
       "src": "/assets/minephone-3.png",
-      "caption": "An incoming call"
+      "caption": "The Camera app, here with a selfie"
     },
     {
       "src": "/assets/minephone-4.png",
-      "caption": "Choose your ringtone and message sound"
+      "caption": "Photos arrive marked as verified camera photos"
     },
     {
       "src": "/assets/minephone-5.png",
-      "caption": "Edit your name and picture"
+      "caption": "An incoming call"
+    },
+    {
+      "src": "/assets/minephone-6.png",
+      "caption": "Do Not Disturb, silent mode and your badge"
+    },
+    {
+      "src": "/assets/minephone-7.png",
+      "caption": "Choose your ringtone and message sound"
     }
   ],
   "versions": [
+    {
+      "version": "0.4.0",
+      "date": "2026-10-16",
+      "channel": "release",
+      "changelog": [
+        "Emoji in chats and an emoji picker (with the Emoji Chat mod)",
+        "New Camera app: back camera and selfies, flip, timer and gallery",
+        "Photos can be sent from chats, and only unchanged originals taken with the camera are accepted",
+        "MinePhone badge in the tab list and on name tags",
+        "Call volume up to 300%, Do Not Disturb, silent mode, blocked numbers list, and text or save someone from your recent calls",
+        "Pop-ups for new voicemails and for texts and voicemails missed while away, plus a chat notice when a newer version is available",
+        "Cleaner setup welcome screen and a message sound that starts immediately"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "minephone-0.4.0-fabric-1.21.11.jar",
+          "release": "minephone-v0.4.0",
+          "size": 786837
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.1"
+          ],
+          "name": "minephone-0.4.0-fabric-26.1.1.jar",
+          "release": "minephone-v0.4.0",
+          "size": 785166
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "minephone-0.4.0-fabric-26.1.2.jar",
+          "release": "minephone-v0.4.0",
+          "size": 785166
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1"
+          ],
+          "name": "minephone-0.4.0-fabric-26.1.jar",
+          "release": "minephone-v0.4.0",
+          "size": 785166
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "minephone-0.4.0-fabric-26.2.jar",
+          "release": "minephone-v0.4.0",
+          "size": 785294
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "minephone-0.4.0-fabric-26.3.jar",
+          "release": "minephone-v0.4.0",
+          "size": 785275
+        }
+      ]
+    },
     {
       "version": "0.3.0",
       "date": "2026-10-16",
