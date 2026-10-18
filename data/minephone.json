@@ -73,31 +73,51 @@
   "gallery": [
     {
       "src": "/assets/minephone-1.png",
-      "caption": "The home screen: clock, your name, a masked number and the apps"
+      "caption": "The home screen: a wallpaper, your apps, a dock at the bottom and your number hidden until you tap it"
     },
     {
       "src": "/assets/minephone-2.png",
-      "caption": "Emoji in a chat, with the emoji picker"
+      "caption": "The lock screen shows the time, the weather and biome you are in, and what you missed. Swipe up to unlock"
     },
     {
       "src": "/assets/minephone-3.png",
-      "caption": "The Camera app, here with a selfie"
+      "caption": "Or slide the knob from left to right to unlock"
     },
     {
       "src": "/assets/minephone-4.png",
-      "caption": "Photos arrive marked as verified camera photos"
+      "caption": "Or double tap the padlock: it opens a little more with each tap"
     },
     {
       "src": "/assets/minephone-5.png",
-      "caption": "An incoming call"
+      "caption": "Emoji in a chat, with the emoji picker"
     },
     {
       "src": "/assets/minephone-6.png",
-      "caption": "Do Not Disturb, silent mode and your badge"
+      "caption": "The Camera app, here with a selfie"
     },
     {
       "src": "/assets/minephone-7.png",
-      "caption": "Choose your ringtone and message sound"
+      "caption": "Photos arrive marked as verified camera photos"
+    },
+    {
+      "src": "/assets/minephone-8.png",
+      "caption": "An incoming call"
+    },
+    {
+      "src": "/assets/minephone-9.png",
+      "caption": "Pick a wallpaper: built-in pictures, your own files or a photo from the Camera app"
+    },
+    {
+      "src": "/assets/minephone-10.png",
+      "caption": "Cookies: a small Cookie Clicker style game with upgrades and golden cookies"
+    },
+    {
+      "src": "/assets/minephone-11.png",
+      "caption": "Do Not Disturb, silent mode, your badge and quiet game volume on calls"
+    },
+    {
+      "src": "/assets/minephone-12.png",
+      "caption": "Choose your ringtone and message sound, and copy your microphone and speaker from Simple Voice Chat"
     }
   ],
   "versions": [
