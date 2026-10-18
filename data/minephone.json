@@ -28,10 +28,16 @@
         "**Verified photos**: only an unchanged original from the camera can be sent. The photo is registered the moment it is taken, so a file that was swapped or edited afterwards is refused, and received photos are marked as verified camera photos",
         "**MinePhone badge**: a small phone icon in front of the name of every player who uses MinePhone, in the tab list and on name tags. You can turn your own badge off",
         "Contacts: save people under any name you like, and share your name and picture with a friend as a contact card. Until you save someone or they share their contact, they only show as a number, so a number never gives away who owns it",
+        "**Hidden numbers**: every number the phone shows is hidden except its first digit until you tap it (in lists, tap the small eye)",
         "**Do Not Disturb** (no pop-ups or sounds, calls go to voicemail), **silent mode** (no ringtone or message sound), and a blocked numbers list where you can block and unblock people",
+        "**Lock screen** (no passcode): unlock with a swipe up, a slide from left to right, or a double tap on the padlock, each with its own animation. It shows the time, the **weather and biome you are in**, what you missed and what is playing",
+        "**Wallpapers**: seven built-in pictures, your own PNG or JPG files, or any photo from the Camera app, on the home screen and the lock screen",
+        "**Now Playing**: see what is playing on your computer (Spotify, a browser tab, VLC and more) with its cover art, and pause, skip or jump around in the song. Windows and Linux",
+        "**Cookies**: a small Cookie Clicker style game with buildings, upgrades and golden cookies that keeps baking while the game is open",
+        "**Quiet game on calls**: the game volume drops to 10% while you are on a call and comes back afterwards (you can turn it off)",
         "Edit your display name and picture at any time (the name can change once a day)",
         "Signal bars that follow your ping to the service, and \"No Service\" when it cannot be reached",
-        "Pick a ringtone from six built-in ones (or the message sound), or drop your own .mp3 or .wav files into the sounds folders; a 12 hour or 24 hour clock; the number on the home screen is hidden except for its first digit",
+        "Pick a ringtone from six built-in ones (or the message sound), or drop your own .mp3 or .wav files into the sounds folders, and a 12 hour or 24 hour clock",
         "Keybinds to answer (Y) and hang up (N) without opening the phone, all rebindable",
         "The mod tells you in chat when a newer version is available, and nothing else is ever sent to your chat"
       ]
@@ -57,7 +63,10 @@
         "Call audio is not encrypted yet (the connection setup is). Only call people you would talk to in public voice chat",
         "Blocking stops texts at the server and declines calls on your side. Blocked numbers cannot text you, and you can report a chat from its menu",
         "There is no echo cancellation, so a headset sounds much better than speakers",
-        "Some launchers ship a trimmed Java without audio support. If calls are silent, use a launcher with a full Java 21 or 25 runtime"
+        "Some launchers ship a trimmed Java without audio support. If calls are silent, use a launcher with a full Java 21 or 25 runtime",
+        "Now Playing reads your computer's media controls through a small helper script that runs on your computer only (PowerShell on Windows, playerctl on Linux). Nothing about it is sent online, and it only starts after you open the app",
+        "Only official, unmodified builds of MinePhone version 0.5.0 or newer can sign in to the service. Older versions are asked to update",
+        "Emoji graphics are Twemoji (CC-BY 4.0), emoji names come from gemoji (MIT)"
       ]
     }
   ],
@@ -93,17 +102,19 @@
   ],
   "versions": [
     {
-      "version": "0.4.4",
-      "date": "2026-10-16",
+      "version": "0.5.0",
+      "date": "2026-10-18",
       "channel": "release",
       "changelog": [
-        "Switching ringtones in settings now stops the one that was playing, so sounds no longer overlap",
-        "New original default ringtone and message sound, plus five more built-in ringtones: Sunrise, Pixel, Crystal, Groove and Dusk",
-        "The game volume drops to 10% while you are on a call and comes back afterwards (turn it off in Settings)",
-        "Ringtones that end abruptly no longer click, and repeats always have the same short pause",
-        "Tap a photo to open it across the whole game window, sharp instead of pixelated",
-        "Emoji are now built into MinePhone, so the separate Emoji Chat mod is no longer needed for emoji in texts",
-        "Setup asks which microphone and speaker to use, with a button to copy them from Simple Voice Chat"
+        "New lock screen with three ways to unlock (swipe up, slide left to right, double tap), each with its own animation, showing the weather and biome you are in",
+        "Wallpapers: built-in pictures, your own PNG or JPG files, or a photo from the Camera app",
+        "New Now Playing app: control what is playing on your computer, with cover art",
+        "New Cookies game: a small Cookie Clicker style idle game with golden cookies",
+        "Every number is hidden except its first digit until you tap it",
+        "Phone app icon is now a handset, the bottom bar and home button are gone and the dock sits at the bottom",
+        "Only official builds of version 0.5.0 or newer can sign in; older versions are asked to update",
+        "If the phone server refuses the saved phone password, the mod fetches a new one by itself",
+        "New original ringtones and message sound, the game volume drops during calls, tap a photo to see it big, emoji are built in"
       ],
       "files": [
         {
@@ -111,54 +122,54 @@
           "mc": [
             "1.21.11"
           ],
-          "name": "minephone-0.4.4-fabric-1.21.11.jar",
-          "release": "minephone-v0.4.4",
-          "size": 4707585
+          "name": "minephone-0.5.0-fabric-1.21.11.jar",
+          "release": "minephone-v0.5.0",
+          "size": 4799471
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1.1"
           ],
-          "name": "minephone-0.4.4-fabric-26.1.1.jar",
-          "release": "minephone-v0.4.4",
-          "size": 4705898
+          "name": "minephone-0.5.0-fabric-26.1.1.jar",
+          "release": "minephone-v0.5.0",
+          "size": 4797221
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1.2"
           ],
-          "name": "minephone-0.4.4-fabric-26.1.2.jar",
-          "release": "minephone-v0.4.4",
-          "size": 4705898
+          "name": "minephone-0.5.0-fabric-26.1.2.jar",
+          "release": "minephone-v0.5.0",
+          "size": 4797221
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1"
           ],
-          "name": "minephone-0.4.4-fabric-26.1.jar",
-          "release": "minephone-v0.4.4",
-          "size": 4705896
+          "name": "minephone-0.5.0-fabric-26.1.jar",
+          "release": "minephone-v0.5.0",
+          "size": 4797219
         },
         {
           "loader": "fabric",
           "mc": [
             "26.2"
           ],
-          "name": "minephone-0.4.4-fabric-26.2.jar",
-          "release": "minephone-v0.4.4",
-          "size": 4706026
+          "name": "minephone-0.5.0-fabric-26.2.jar",
+          "release": "minephone-v0.5.0",
+          "size": 4797350
         },
         {
           "loader": "fabric",
           "mc": [
             "26.3"
           ],
-          "name": "minephone-0.4.4-fabric-26.3.jar",
-          "release": "minephone-v0.4.4",
-          "size": 4706010
+          "name": "minephone-0.5.0-fabric-26.3.jar",
+          "release": "minephone-v0.5.0",
+          "size": 4797340
         }
       ]
     }
