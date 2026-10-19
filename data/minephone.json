@@ -66,6 +66,7 @@
         "Some launchers ship a trimmed Java without audio support. If calls are silent, use a launcher with a full Java 21 or 25 runtime",
         "Now Playing reads your computer's media controls through a small helper script that runs on your computer only (PowerShell on Windows, playerctl on Linux). Nothing about it is sent online, and it only starts after you open the app",
         "Only official, unmodified builds of MinePhone version 0.5.0 or newer can sign in to the service. Older versions are asked to update",
+        "MinePhone looks through your other mods when the game starts. If one uses or patches MinePhone's code, MinePhone stays off for that session and tells you which mod caused it",
         "Emoji graphics are Twemoji (CC-BY 4.0), emoji names come from gemoji (MIT)"
       ]
     }
@@ -122,19 +123,13 @@
   ],
   "versions": [
     {
-      "version": "0.5.0",
-      "date": "2026-10-18",
+      "version": "0.5.1",
+      "date": "2026-10-19",
       "channel": "release",
       "changelog": [
-        "New lock screen with three ways to unlock (swipe up, slide left to right, double tap), each with its own animation, showing the weather and biome you are in",
-        "Wallpapers: built-in pictures, your own PNG or JPG files, or a photo from the Camera app",
-        "New Now Playing app: control what is playing on your computer, with cover art",
-        "New Cookies game: a small Cookie Clicker style idle game with golden cookies",
-        "Every number is hidden except its first digit until you tap it",
-        "Phone app icon is now a handset, the bottom bar and home button are gone and the dock sits at the bottom",
-        "Only official builds of version 0.5.0 or newer can sign in; older versions are asked to update",
-        "If the phone server refuses the saved phone password, the mod fetches a new one by itself",
-        "New original ringtones and message sound, the game volume drops during calls, tap a photo to see it big, emoji are built in"
+        "Other mods can no longer use or patch MinePhone: if one tries, MinePhone switches itself off and the phone says which mod caused it",
+        "Fixed text that was cut off on the Settings screen next to your number",
+        "Shorter label for the quiet game volume setting, and the moon in the dusk wallpaper no longer sits behind the app icons"
       ],
       "files": [
         {
@@ -142,54 +137,54 @@
           "mc": [
             "1.21.11"
           ],
-          "name": "minephone-0.5.0-fabric-1.21.11.jar",
-          "release": "minephone-v0.5.0",
-          "size": 4799471
+          "name": "minephone-0.5.1-fabric-1.21.11.jar",
+          "release": "minephone-v0.5.1",
+          "size": 4808437
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1.1"
           ],
-          "name": "minephone-0.5.0-fabric-26.1.1.jar",
-          "release": "minephone-v0.5.0",
-          "size": 4797221
+          "name": "minephone-0.5.1-fabric-26.1.1.jar",
+          "release": "minephone-v0.5.1",
+          "size": 4806147
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1.2"
           ],
-          "name": "minephone-0.5.0-fabric-26.1.2.jar",
-          "release": "minephone-v0.5.0",
-          "size": 4797221
+          "name": "minephone-0.5.1-fabric-26.1.2.jar",
+          "release": "minephone-v0.5.1",
+          "size": 4806147
         },
         {
           "loader": "fabric",
           "mc": [
             "26.1"
           ],
-          "name": "minephone-0.5.0-fabric-26.1.jar",
-          "release": "minephone-v0.5.0",
-          "size": 4797219
+          "name": "minephone-0.5.1-fabric-26.1.jar",
+          "release": "minephone-v0.5.1",
+          "size": 4806145
         },
         {
           "loader": "fabric",
           "mc": [
             "26.2"
           ],
-          "name": "minephone-0.5.0-fabric-26.2.jar",
-          "release": "minephone-v0.5.0",
-          "size": 4797350
+          "name": "minephone-0.5.1-fabric-26.2.jar",
+          "release": "minephone-v0.5.1",
+          "size": 4806276
         },
         {
           "loader": "fabric",
           "mc": [
             "26.3"
           ],
-          "name": "minephone-0.5.0-fabric-26.3.jar",
-          "release": "minephone-v0.5.0",
-          "size": 4797340
+          "name": "minephone-0.5.1-fabric-26.3.jar",
+          "release": "minephone-v0.5.1",
+          "size": 4806266
         }
       ]
     }
