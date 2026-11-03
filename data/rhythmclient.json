@@ -1,0 +1,92 @@
+{
+  "slug": "rhythmclient",
+  "name": "RhythmClient",
+  "tagline": "Separate lane keybinds and spectator audio for the RhythmCraft rhythm-game server.",
+  "icon": "/assets/rhythmclient.png",
+  "side": "Client",
+  "categories": [
+    "Utility",
+    "Client"
+  ],
+  "license": "MIT",
+  "links": {},
+  "description": [
+    "RhythmClient is the optional companion mod for the **RhythmCraft** rhythm-game server (a Guitar-Hero-style game played on the hotbar). The server works without it; the mod makes it nicer to play and to watch.",
+    {
+      "heading": "Features"
+    },
+    {
+      "list": [
+        "**Separate lane keybinds:** four dedicated keys (default: the arrow keys) for the four lanes, so you can keep your normal hotbar keys for PvP. Set them in Options > Controls > Key Binds > RhythmClient.",
+        "**Low input lag:** a lane press is sent the instant the key event arrives, not at the next client tick, which removes 0-50 ms of delay from every press.",
+        "**Spectator audio:** when you `/spectate` someone, you hear the song from the point they are at. Without the mod spectators hear nothing.",
+        "**Key hints:** the key names shown on the pads and in menus show your lane keys while the mod is active.",
+        "Only acts on the RhythmCraft stage world, and not while a menu is open. Players without the mod can still play with hotbar keys 1-4."
+      ]
+    },
+    {
+      "heading": "Good to know"
+    },
+    {
+      "list": [
+        "Needs Fabric Loader 0.18+ and the Fabric API. Client-side only: nothing to install on the server.",
+        "If a lane key is also one of your hotbar keys, only the hotbar key sends the press, so there are no double hits.",
+        "Settings are in `config/rhythmclient.json` (the stage world name, `alwaysActive`, and the hotbar slots the server expects for each lane).",
+        "Each download covers one Minecraft version (1.21.11, 26.1.x, 26.2 or 26.3); pick your version and the site gives you the right file."
+      ]
+    }
+  ],
+  "gallery": [],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "date": "2026-11-03",
+      "channel": "release",
+      "changelog": [
+        "First release: four lane keybinds separate from the hotbar keys",
+        "Lane presses are sent straight from the key event for the lowest input lag",
+        "Spectators hear the song from where the watched player is"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "rhythmclient-1.2.0-fabric-1.21.11.jar",
+          "release": "rhythmclient-v1.2.0",
+          "size": 17508
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2"
+          ],
+          "name": "rhythmclient-1.2.0-fabric-26.1.2.jar",
+          "release": "rhythmclient-v1.2.0",
+          "size": 18100
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "rhythmclient-1.2.0-fabric-26.2.jar",
+          "release": "rhythmclient-v1.2.0",
+          "size": 18128
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "rhythmclient-1.2.0-fabric-26.3.jar",
+          "release": "rhythmclient-v1.2.0",
+          "size": 18129
+        }
+      ]
+    }
+  ]
+}
