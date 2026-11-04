@@ -20,6 +20,7 @@
         "**Separate lane keybinds:** four dedicated keys (default: the arrow keys) for the four lanes, so you can keep your normal hotbar keys for PvP. Set them in Options > Controls > Key Binds > RhythmClient. Pressing one never changes the hotbar slot you have selected.",
         "**Low input lag:** a lane press is sent the instant the key event arrives, not at the next client tick, which removes 0-50 ms of delay from every press.",
         "**Spectator audio:** when you `/spectate` someone, you hear the song from the point they are at. Without the mod spectators hear nothing.",
+        "**Make Songs Clean:** switch it on in the server's settings menu and every swear word and slur in a song is cut out of the audio and replaced by a bleep (a Minecraft sound, pitched to the song's tempo), and starred out of your lyrics. Only works with this mod installed.",
         "**Key hints:** the key names shown on the pads and in menus show your lane keys while the mod is active.",
         "Only acts on the RhythmCraft stage world, and not while a menu is open. Players without the mod can still play with hotbar keys 1-4."
       ]
@@ -38,6 +39,55 @@
   ],
   "gallery": [],
   "versions": [
+    {
+      "version": "1.3.0",
+      "date": "2026-11-04",
+      "channel": "release",
+      "changelog": [
+        "New: Make Songs Clean - cuts swear words and slurs out of songs and plays a bleep instead (switch it on in the server's settings menu)",
+        "Spectator audio and the other 1.2 features are unchanged"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "rhythmclient-1.3.0-fabric-1.21.11.jar",
+          "release": "rhythmclient-v1.3.0",
+          "size": 28830
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2"
+          ],
+          "name": "rhythmclient-1.3.0-fabric-26.1.2.jar",
+          "release": "rhythmclient-v1.3.0",
+          "size": 29456
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "rhythmclient-1.3.0-fabric-26.2.jar",
+          "release": "rhythmclient-v1.3.0",
+          "size": 29484
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "rhythmclient-1.3.0-fabric-26.3.jar",
+          "release": "rhythmclient-v1.3.0",
+          "size": 29484
+        }
+      ]
+    },
     {
       "version": "1.2.1",
       "date": "2026-11-03",
