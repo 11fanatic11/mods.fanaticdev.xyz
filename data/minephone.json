@@ -123,6 +123,72 @@
   ],
   "versions": [
     {
+      "version": "0.5.4",
+      "date": "2026-11-05",
+      "channel": "release",
+      "changelog": [
+        "New Call Support button in Settings: rings the MinePhone Support line. It is the only number longer than 9 digits the phone will dial, and it shows as MinePhone Support with the MinePhone icon as its picture",
+        "Fixed: on Minecraft 26.3 you could not type in any of the phone's menus",
+        "Fixed: a player whose picture is their Minecraft skin now shows their real skin face on shared contact cards instead of a default Steve (share the contact again to update an old card)"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "minephone-0.5.4-fabric-1.21.11.jar",
+          "release": "minephone-v0.5.4",
+          "size": 4811562
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.1"
+          ],
+          "name": "minephone-0.5.4-fabric-26.1.1.jar",
+          "release": "minephone-v0.5.4",
+          "size": 4809266
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1.2"
+          ],
+          "name": "minephone-0.5.4-fabric-26.1.2.jar",
+          "release": "minephone-v0.5.4",
+          "size": 4809267
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1"
+          ],
+          "name": "minephone-0.5.4-fabric-26.1.jar",
+          "release": "minephone-v0.5.4",
+          "size": 4809264
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "minephone-0.5.4-fabric-26.2.jar",
+          "release": "minephone-v0.5.4",
+          "size": 4809393
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "minephone-0.5.4-fabric-26.3.jar",
+          "release": "minephone-v0.5.4",
+          "size": 4809498
+        }
+      ]
+    },
+    {
       "version": "0.5.3",
       "date": "2026-11-05",
       "channel": "release",
