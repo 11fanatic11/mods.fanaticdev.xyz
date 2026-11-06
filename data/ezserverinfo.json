@@ -1,0 +1,101 @@
+{
+  "slug": "ezserverinfo",
+  "name": "EzServerInfo",
+  "tagline": "Privately shows a server's type, version, IP, location, plugins, MOTD, ping and player count in your chat when you first join, or with /serverinfo.",
+  "icon": "/assets/ezserverinfo.png",
+  "side": "Client",
+  "categories": [
+    "Utility",
+    "Client"
+  ],
+  "license": "MIT",
+  "links": {},
+  "description": [
+    "EzServerInfo prints a **framed summary of the server you just joined** in your own chat. It appears automatically the **first time you join each server**, and any time you run **`/serverinfo`**. It is client-side and private: nothing is sent to other players, and nothing is needed on the server.",
+    {
+      "heading": "What it shows"
+    },
+    {
+      "list": [
+        "**Server Type**: Paper, Spigot, Purpur, Folia, Velocity, BungeeCord, Fabric and more",
+        "**Server Version**: the version the server reports, plus the range of client versions it accepts when ViaVersion-style multi-version support is detected",
+        "**Server IP**: the domain you typed and the IPv4 address behind it",
+        "**Server Location**: a rough location for that IP",
+        "**Server Plugins**: read from `/plugins` or `/pl` when your permissions allow it",
+        "**Server MOTD**: shown with the server's own colours",
+        "**Ping** in milliseconds and **Player Count** (online/max)"
+      ]
+    },
+    {
+      "heading": "Easy to spot"
+    },
+    "Every line starts with an aqua `┃` bar inside a framed block, so it can't be mistaken for server chat that arrives at the same time. The block uses just three colours: aqua for the frame and labels, green for values, and gray for secondary text.",
+    {
+      "heading": "Good to know"
+    },
+    {
+      "list": [
+        "**Plugins are listed silently.** The mod only sends `/plugins` (or `/pl`) if the server offers that command to you, and it hides the reply from your chat.",
+        "**Location lookup uses an online service.** The server's IP is sent to ipwho.is (or ip-api.com as a fallback) to find a rough location. For servers behind a proxy such as Cloudflare it shows the proxy's location. You can turn this off.",
+        "**Supported-version detection** sends a few dozen short status pings to the server. Some hosts rate-limit these, in which case the result is marked \"approximate\".",
+        "Singleplayer and LAN worlds are ignored.",
+        "Settings live in `config/ezserverinfo.json`: `showOnFirstJoin`, `queryPlugins`, `locationLookup` and `probeSupportedVersions`. Servers already announced are remembered in `config/ezserverinfo-seen.json`; delete an entry to see it again.",
+        "Needs **Fabric API**. Java 21 for 1.21.11, Java 25 for 26.1 and newer."
+      ]
+    }
+  ],
+  "gallery": [],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "date": "2026-11-06",
+      "channel": "release",
+      "changelog": [
+        "First public release",
+        "Framed, easy-to-spot chat block with just three colours",
+        "Shows server type, version, IP, location, plugins, MOTD, ping and player count on first join or with /serverinfo",
+        "Builds for Minecraft 1.21.11, 26.1.x, 26.2 and 26.3"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "ezserverinfo-1.1.0-fabric-1.21.11.jar",
+          "release": "ezserverinfo-v1.1.0",
+          "size": 35801
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2"
+          ],
+          "name": "ezserverinfo-1.1.0-fabric-26.1.x.jar",
+          "release": "ezserverinfo-v1.1.0",
+          "size": 35458
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "ezserverinfo-1.1.0-fabric-26.2.jar",
+          "release": "ezserverinfo-v1.1.0",
+          "size": 35483
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "ezserverinfo-1.1.0-fabric-26.3.jar",
+          "release": "ezserverinfo-v1.1.0",
+          "size": 35484
+        }
+      ]
+    }
+  ]
+}
