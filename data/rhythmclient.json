@@ -21,6 +21,7 @@
         "**Low input lag:** a lane press is sent the instant the key event arrives, not at the next client tick, which removes 0-50 ms of delay from every press.",
         "**Spectator audio:** when you `/spectate` someone, you hear the song from the point they are at. Without the mod spectators hear nothing.",
         "**Make Songs Clean:** switch it on in the server's settings menu and every swear word and slur in a song is cut out of the audio and replaced by a bleep (a Minecraft sound, pitched to the song's tempo), and starred out of your lyrics. Only works with this mod installed.",
+        "**Pause menu pauses the song:** open the pause menu (or alt-tab) and your song stops, with the notes frozen and no misses; when you close it a 3-2-1 plays and the song carries on from the same spot. Needs a RhythmCraft server that supports it.",
         "**Key hints:** the key names shown on the pads and in menus show your lane keys while the mod is active.",
         "Only acts on the RhythmCraft stage world, and not while a menu is open. Players without the mod can still play with hotbar keys 1-4."
       ]
@@ -39,6 +40,55 @@
   ],
   "gallery": [],
   "versions": [
+    {
+      "version": "1.4.0",
+      "date": "2026-11-24",
+      "channel": "release",
+      "changelog": [
+        "New: opening the pause menu pauses your song (music stops, notes freeze, no misses); closing it gives a 3-2-1 and the song continues from the same spot",
+        "Lane keys, spectator audio and Make Songs Clean are unchanged"
+      ],
+      "files": [
+        {
+          "loader": "fabric",
+          "mc": [
+            "1.21.11"
+          ],
+          "name": "rhythmclient-1.4.0-fabric-1.21.11.jar",
+          "release": "rhythmclient-v1.4.0",
+          "size": 31835
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.1",
+            "26.1.1",
+            "26.1.2"
+          ],
+          "name": "rhythmclient-1.4.0-fabric-26.1.2.jar",
+          "release": "rhythmclient-v1.4.0",
+          "size": 32549
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.2"
+          ],
+          "name": "rhythmclient-1.4.0-fabric-26.2.jar",
+          "release": "rhythmclient-v1.4.0",
+          "size": 32590
+        },
+        {
+          "loader": "fabric",
+          "mc": [
+            "26.3"
+          ],
+          "name": "rhythmclient-1.4.0-fabric-26.3.jar",
+          "release": "rhythmclient-v1.4.0",
+          "size": 32590
+        }
+      ]
+    },
     {
       "version": "1.3.0",
       "date": "2026-11-04",
